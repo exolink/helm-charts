@@ -1,0 +1,66 @@
+apiVersion: karpenter.sh/v1alpha5
+kind: Provisioner
+metadata:
+  name: {{ .Values.provisionerName }}
+  labels:
+    app.kubernetes.io/name: karpenter
+    helm.sh/chart: {{ .Chart.Name }}
+spec:
+  kubeletConfiguration:
+    clusterDNS:
+    - {{ .Values.clusterDNS }}
+  labels:
+    {{- with .Values.machineLabels }}
+    {{- toYaml . | nindent 4 }}
+    {{- end }}
+  limits:
+    resources:
+      cpu: {{ .Values.cpuLimit }}
+      memory: {{ .Values.memoryLimit }}
+  provider:
+    amiFamily: {{ .Values.amiFamily }}
+    apiVersion: extensions.karpenter.sh/v1alpha1
+    instanceProfile: {{ .Values.instanceProfile }}
+    kind: AWS
+    securityGroupSelector:
+      karpenter.sh/discovery: {{ .Values.securityGroupSelector }}
+    subnetSelector:
+      karpenter.sh/discovery: {{ .Values.subnetSelector }}
+    tags:
+      {{- with .Values.machineTags }}
+      {{- toYaml . | nindent 6 }}
+      {{- end }}
+  requirements:
+  - key: node.kubernetes.io/instance-type
+    operator: In
+    values:
+    {{- with .Values.instancetype }}
+    {{- range . }}
+    - {{ . }}
+    {{- end }}
+    {{- end }}
+  - key: topology.kubernetes.io/zone
+    operator: In
+    values:
+    {{- with .Values.availabilityzones }}
+    {{- range . }}
+    - {{ . }}
+    {{- end }}
+    {{- end }}
+  - key: karpenter.sh/capacity-type
+    operator: In
+    values:
+    {{- with .Values.capactitytype }}
+    {{- range . }}
+    - {{ . }}
+    {{- end }}
+    {{- end }}
+  - key: kubernetes.io/arch
+    operator: In
+    values:
+    {{- with .Values.arch }}
+    {{- range . }}
+    - {{ . }}
+    {{- end }}
+    {{- end }}
+  ttlSecondsAfterEmpty: {{ .Values.ttlSecondsAfterEmpty }}

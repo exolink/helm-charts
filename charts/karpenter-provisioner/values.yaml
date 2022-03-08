@@ -1,0 +1,15 @@
+provisionerName:
+clusterDNS:
+machineLabels:
+cpuLimit:
+memoryLimit:
+amiFamily:
+instanceProfile:
+securityGroupSelector:
+subnetSelector:
+machineTags:
+instancetype:
+availabilityzones:
+capactitytype:
+arch:
+ttlSecondsAfterEmpty:
