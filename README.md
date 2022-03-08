@@ -1,6 +1,6 @@
 ## Usage
 
-This repository contains helm-chart sused by exolink.com.
+This repository contains helm-charts used by exolink.com.
 
 [Helm](https://helm.sh) must be installed to use the charts.  Please refer to
 Helm's [documentation](https://helm.sh/docs) to get started.
