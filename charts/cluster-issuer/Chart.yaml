@@ -1,0 +1,4 @@
+apiVersion: v2
+name: cluster-issuer
+description: A Helm chart for a ClusterIssuer CRD
+version: 0.1.0
