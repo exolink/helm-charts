@@ -1,5 +1,14 @@
 apiVersion: v1
 entries:
+  cluster-issuer:
+  - apiVersion: v2
+    created: "2022-03-08T16:05:50.433101933Z"
+    description: A Helm chart for a ClusterIssuer CRD
+    digest: d543a309bf713ee32ba6f32cea69dfd3df043509da433ee92fd387e4536b3ced
+    name: cluster-issuer
+    urls:
+    - https://github.com/exolink/helm-charts/releases/download/cluster-issuer-0.1.0/cluster-issuer-0.1.0.tgz
+    version: 0.1.0
   karpenter-provisioner:
   - apiVersion: v2
     created: "2022-03-08T15:20:03.969867686Z"
@@ -9,4 +18,4 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/karpenter-provisioner-0.0.1/karpenter-provisioner-0.0.1.tgz
     version: 0.0.1
-generated: "2022-03-08T15:20:03.969873486Z"
+generated: "2022-03-08T16:05:50.433115433Z"
