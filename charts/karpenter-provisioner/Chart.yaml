@@ -1,4 +1,4 @@
 apiVersion: v2
 name: karpenter-provisioner
 description: A Helm chart for a Karpenter Provisioner CRD
-version: 0.0.1
+version: 0.1.0
