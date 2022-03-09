@@ -9,6 +9,16 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/cluster-issuer-0.1.0/cluster-issuer-0.1.0.tgz
     version: 0.1.0
+  cluster-secret-store:
+  - apiVersion: v2
+    created: "2022-03-09T08:36:27.898949218Z"
+    description: A Helm chart for an external-secrets ClusterSecretStore, integrates
+      with AWS SecretsManager
+    digest: 9834074bb0d8f2daf3a19a51d4849f2c34938c9e81c013ddc52cf5ff41e3697d
+    name: cluster-secret-store
+    urls:
+    - https://github.com/exolink/helm-charts/releases/download/cluster-secret-store-0.1.0/cluster-secret-store-0.1.0.tgz
+    version: 0.1.0
   karpenter-provisioner:
   - apiVersion: v2
     created: "2022-03-08T15:20:03.969867686Z"
@@ -18,4 +28,4 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/karpenter-provisioner-0.0.1/karpenter-provisioner-0.0.1.tgz
     version: 0.0.1
-generated: "2022-03-08T16:05:50.433115433Z"
+generated: "2022-03-09T08:36:27.898955219Z"
