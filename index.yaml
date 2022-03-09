@@ -21,6 +21,14 @@ entries:
     version: 0.1.0
   karpenter-provisioner:
   - apiVersion: v2
+    created: "2022-03-09T09:02:34.425443997Z"
+    description: A Helm chart for a Karpenter Provisioner CRD
+    digest: b729ad6f0e6dc94e6f837026dbd9c92fded20b39db1942f164c75e12b3823f4e
+    name: karpenter-provisioner
+    urls:
+    - https://github.com/exolink/helm-charts/releases/download/karpenter-provisioner-0.1.0/karpenter-provisioner-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
     created: "2022-03-08T15:20:03.969867686Z"
     description: A Helm chart for a Karpenter Provisioner CRD
     digest: 20c9443e04c73f11f5c2444a7c6204d3cff238a6ef885eca385087af7417fc3d
@@ -28,4 +36,4 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/karpenter-provisioner-0.0.1/karpenter-provisioner-0.0.1.tgz
     version: 0.0.1
-generated: "2022-03-09T08:36:27.898955219Z"
+generated: "2022-03-09T09:02:34.425451698Z"
