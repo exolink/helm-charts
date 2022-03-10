@@ -53,4 +53,14 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/karpenter-provisioner-0.0.1/karpenter-provisioner-0.0.1.tgz
     version: 0.0.1
-generated: "2022-03-10T12:04:40.167585807Z"
+  platform-apps-app:
+  - apiVersion: v2
+    created: "2022-03-10T13:10:45.319696428Z"
+    description: A Helm chart to create a ArgoCD-Application which will create other
+      applications
+    digest: 667e10a199bc9a5faba83f12bfcc5c56db73ac1366bad128d36d94da3da16745
+    name: platform-apps-app
+    urls:
+    - https://github.com/exolink/helm-charts/releases/download/platform-apps-app-0.1.0/platform-apps-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-10T13:10:45.319706828Z"
