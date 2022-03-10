@@ -1,4 +1,4 @@
 apiVersion: v2
 name: platform-apps-app
 description: A Helm chart to create a ArgoCD-Application which will create other applications
-version: 0.1.0
+version: 0.2.0
