@@ -55,6 +55,15 @@ entries:
     version: 0.0.1
   platform-apps-app:
   - apiVersion: v2
+    created: "2022-03-10T13:52:59.372805354Z"
+    description: A Helm chart to create a ArgoCD-Application which will create other
+      applications
+    digest: 36861a68eca018cf03ef41f086aec7fdcf0c14bba6d92a605f0e3deb97f2318f
+    name: platform-apps-app
+    urls:
+    - https://github.com/exolink/helm-charts/releases/download/platform-apps-app-0.3.0/platform-apps-app-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     created: "2022-03-10T13:39:37.290274426Z"
     description: A Helm chart to create a ArgoCD-Application which will create other
       applications
@@ -72,4 +81,4 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/platform-apps-app-0.1.0/platform-apps-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-10T13:39:37.290288926Z"
+generated: "2022-03-10T13:52:59.372822955Z"
