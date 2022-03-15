@@ -1,0 +1,4 @@
+apiVersion: v2
+name: dockerconfig-secret
+description: A Helm chart to create a dockerconfig secret
+version: 0.1.0
