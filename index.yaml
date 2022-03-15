@@ -38,6 +38,14 @@ entries:
     version: 0.1.0
   dockerconfig-secret:
   - apiVersion: v2
+    created: "2022-03-15T14:45:58.508795259Z"
+    description: A Helm chart to create a dockerconfig secret
+    digest: e490c1cfc93bfa6eea719cc6105dbe6671e42c6d5c5930909dc9015d49863a03
+    name: dockerconfig-secret
+    urls:
+    - https://github.com/exolink/helm-charts/releases/download/dockerconfig-secret-0.2.0/dockerconfig-secret-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     created: "2022-03-15T14:37:31.214118132Z"
     description: A Helm chart to create a dockerconfig secret
     digest: e4fad81a80be937ba816df4f3ba0ec00d40884ff99f5342cb613f4dcb3a2c5e6
@@ -90,4 +98,4 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/platform-apps-app-0.1.0/platform-apps-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-15T14:37:31.214132935Z"
+generated: "2022-03-15T14:45:58.508821459Z"
