@@ -13,3 +13,6 @@ availabilityzones:
 capactitytype:
 arch:
 ttlSecondsAfterEmpty:
+diskSize:
+diskType:
+diskIops:
