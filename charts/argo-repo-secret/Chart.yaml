@@ -1,4 +1,4 @@
 apiVersion: v2
 name: argo-repo-secret
 description: A Helm chart to create a secret for a argocd repo
-version: 0.2.0
+version: 0.3.0
