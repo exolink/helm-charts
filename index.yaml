@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   argo-repo-secret:
   - apiVersion: v2
+    created: "2022-05-19T05:06:52.202568028Z"
+    description: A Helm chart to create a secret for a argocd repo
+    digest: be97dea685f39e683ffe391ef8ab8229b6b5cfa9544cfe4b29d47d1aa2bf7af0
+    name: argo-repo-secret
+    urls:
+    - https://github.com/exolink/helm-charts/releases/download/argo-repo-secret-0.3.0/argo-repo-secret-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     created: "2022-03-10T12:04:40.167574507Z"
     description: A Helm chart to create a secret for a argocd repo
     digest: 0f70dcf4c0d29d3a4b3f118e1e17b22e2e8f15b865b534fa85aa4896970f3361
@@ -106,4 +114,4 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/platform-apps-app-0.1.0/platform-apps-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-13T06:13:53.33564875Z"
+generated: "2022-05-19T05:06:52.202600428Z"
