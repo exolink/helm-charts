@@ -23,11 +23,12 @@ spec:
     instanceProfile: {{ .Values.instanceProfile }}
     kind: AWS
     blockDeviceMappings:
-      - deviceName: /dev/xvda
+      - deviceName: /dev/xvdb
         ebs:
           volumeSize: {{ .Values.diskSize }}
           volumeType: {{ .Values.diskType }}
           iops: {{ .Values.diskIops }}
+          throughput: {{ .Values.diskThroughput }}
           deleteOnTermination: true
     securityGroupSelector:
       karpenter.sh/discovery: {{ .Values.securityGroupSelector }}

@@ -16,3 +16,4 @@ ttlSecondsAfterEmpty:
 diskSize:
 diskType:
 diskIops:
+diskThroughput:
