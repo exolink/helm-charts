@@ -131,6 +131,16 @@ entries:
     - https://github.com/exolink/helm-charts/releases/download/platform-apps-app-0.1.0/platform-apps-app-0.1.0.tgz
     version: 0.1.0
   vernemq:
+  - apiVersion: v2
+    appVersion: 1.12.3
+    created: "2022-08-24T05:28:41.780829285Z"
+    description: VerneMQ is a high-performance, distributed MQTT message broker
+    digest: 55f17cf390ef02fe2b03665fe5162531419a92e26db56e9715b8c37b054bd5c2
+    icon: http://www.stickpng.com/assets/thumbs/58482b21cef1014c0b5e4a24.png
+    name: vernemq
+    urls:
+    - https://github.com/exolink/helm-charts/releases/download/vernemq-0.0.2/vernemq-0.0.2.tgz
+    version: 0.0.2
   - apiVersion: v1
     appVersion: 1.12.3
     created: "2022-08-24T05:12:16.193909703Z"
@@ -141,4 +151,4 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/vernemq-0.0.1/vernemq-0.0.1.tgz
     version: 0.0.1
-generated: "2022-08-24T05:12:16.193950404Z"
+generated: "2022-08-24T05:28:41.780880886Z"
