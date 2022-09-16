@@ -17,9 +17,13 @@ spec:
     resources:
       cpu: {{ .Values.cpuLimit }}
       memory: {{ .Values.memoryLimit }}
+{{- if .Values.consolidation }}
+  consolidation:
+    enabled: {{ .Values.consolidation }}
+{{- end }}
   provider:
     amiFamily: {{ .Values.amiFamily }}
-    apiVersion: extensions.karpenter.sh/v1alpha1
+    apiVersion: extensions.karpenter.sh/v1alpha5
     instanceProfile: {{ .Values.instanceProfile }}
     kind: AWS
     blockDeviceMappings:
@@ -71,4 +75,9 @@ spec:
     - {{ . }}
     {{- end }}
     {{- end }}
+{{- if .Values.ttlSecondsUntilExpired }}
+  ttlSecondsUntilExpired: {{ .Values.ttlSecondsUntilExpired }}
+{{- end }}
+{{- if .Values.ttlSecondsAfterEmpty }}
   ttlSecondsAfterEmpty: {{ .Values.ttlSecondsAfterEmpty }}
+{{- end }}

@@ -1,6 +1,7 @@
 provisionerName:
 clusterDNS:
 machineLabels:
+consolidation:
 cpuLimit:
 memoryLimit:
 amiFamily:
@@ -13,6 +14,7 @@ availabilityzones:
 capactitytype:
 arch:
 ttlSecondsAfterEmpty:
+ttlSecondsUntilExpired:
 diskSize:
 diskType:
 diskIops:
