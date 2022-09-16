@@ -23,7 +23,7 @@ spec:
 {{- end }}
   provider:
     amiFamily: {{ .Values.amiFamily }}
-    apiVersion: extensions.karpenter.sh/v1alpha5
+    apiVersion: extensions.karpenter.sh/v1alpha1
     instanceProfile: {{ .Values.instanceProfile }}
     kind: AWS
     blockDeviceMappings:
