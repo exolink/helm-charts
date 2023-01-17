@@ -71,6 +71,14 @@ entries:
     version: 0.1.0
   ingress-route-tcp:
   - apiVersion: v2
+    created: "2023-01-17T14:11:55.270152564Z"
+    description: A Helm chart to create IngressRouteTcp
+    digest: d82795814a52ee1df499c3145b744cf7c19212d3a520d5af54f4ec8d09862d69
+    name: ingress-route-tcp
+    urls:
+    - https://github.com/exolink/helm-charts/releases/download/ingress-route-tcp-0.2.0/ingress-route-tcp-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     created: "2023-01-17T14:02:36.108528331Z"
     description: A Helm chart to create IngressRouteTcp
     digest: 4feead204645e90e59a67dbdcd442490228f63198d1b12ee48735838d006c7bc
@@ -176,4 +184,4 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/vernemq-0.0.1/vernemq-0.0.1.tgz
     version: 0.0.1
-generated: "2023-01-17T14:02:36.108655932Z"
+generated: "2023-01-17T14:11:55.270178663Z"
