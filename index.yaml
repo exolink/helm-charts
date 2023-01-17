@@ -69,6 +69,15 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/dockerconfig-secret-0.1.0/dockerconfig-secret-0.1.0.tgz
     version: 0.1.0
+  ingress-route-tcp:
+  - apiVersion: v2
+    created: "2023-01-17T14:02:36.108528331Z"
+    description: A Helm chart to create IngressRouteTcp
+    digest: 4feead204645e90e59a67dbdcd442490228f63198d1b12ee48735838d006c7bc
+    name: ingress-route-tcp
+    urls:
+    - https://github.com/exolink/helm-charts/releases/download/ingress-route-tcp-0.1.0/ingress-route-tcp-0.1.0.tgz
+    version: 0.1.0
   karpenter-provisioner:
   - apiVersion: v2
     created: "2022-09-16T05:38:19.724973074Z"
@@ -167,4 +176,4 @@ entries:
     urls:
     - https://github.com/exolink/helm-charts/releases/download/vernemq-0.0.1/vernemq-0.0.1.tgz
     version: 0.0.1
-generated: "2022-09-16T05:38:19.725009974Z"
+generated: "2023-01-17T14:02:36.108655932Z"
