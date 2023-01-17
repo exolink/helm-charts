@@ -1,0 +1,17 @@
+---
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRouteTCP
+metadata:
+  name: {{ .Values.ingressName }}
+  namespace: {{ .Values.ingressNamespace }}
+spec:
+  entryPoints:
+    {{- range .Values.entryPoints }}
+    - {{ . | title | quote }}
+    {{- end }}    
+  routes:
+  - match: HostSNI(`*`)
+    services:
+    - name: {{ .Values.ingressServiceName }}
+      namespace: {{ .Values.ingressNamespace }}
+      port: {{ .Values.ingressServicePort }}

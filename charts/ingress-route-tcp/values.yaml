@@ -1,0 +1,5 @@
+ingressName:
+ingressNamespace:
+ingressServiceName:
+ingressServicePort:
+entryPoints:
